@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './Navbar';
+import Shop from './Shop';
 
 function App() {
   return (
     <>
-    <h1>Hello</h1>
-    
+    <Navbar/>
+    <div className="container">
+    <Shop/>
+    </div>
     </>
     
   );
